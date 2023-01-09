@@ -2,4 +2,4 @@ from web_page import app
 
 
 if __name__ == '__main__':
-    app.run(debug=False, port=5734)
+    app.run(debug=False, host='0.0.0.', port=5734)
