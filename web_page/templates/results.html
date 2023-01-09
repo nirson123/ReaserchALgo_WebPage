@@ -1,0 +1,23 @@
+<body style="background-color:#FAF5FF;">
+<div class="Results">
+    <p style="color: red; font-size: 350%; padding-left: 2%;"><b>Results</b></p>
+    <ol style="font-size: 200%; padding-left: 7%;">
+        {% for bin in results %}
+            <li style="color: #007A74;">bin: {{ bin }}</li>
+        {% endfor %}
+    </ol>
+
+    <div class="content-section">
+        <form method="POST" action="">
+            <p style="background-color: orange; width: 9%; height: 3%"> {{ button.button() }}</p>
+        </form>
+    </div>
+
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+</div>
+</body>

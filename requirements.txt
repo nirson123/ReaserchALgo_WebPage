@@ -1,0 +1,5 @@
+prtpy @ https://github.com/nirson123/prtpy
+flask~=2.2.2
+flask_wtf
+
+WTForms~=3.0.1
